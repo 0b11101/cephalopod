@@ -1,0 +1,63 @@
+# CMake generated files and directories
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Object files
+*.o
+*.obj
+
+# Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Static libraries
+*.lib
+*.a
+
+# Executable files
+cephalopod
+*.exe
+*.out
+
+# Debug files
+*.pdb
+*.ilk
+
+# Code coverage
+*.gcno
+*.gcda
+*.gcov
+
+# Editor settings and backups
+*.swp
+*~
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Operating System generated files
+.DS_Store # macOS
+Thumbs.db # Windows
+desktop.ini # Windows
+
+# Archive files
+*.tar
+*.tar.gz
+*.zip
+*.rar
+
+# Log files
+*.log
+
+# Dependency directories (uncomment if applicable)
+# node_modules/
+# vendor/
+
+# Environment files
+.env
+
