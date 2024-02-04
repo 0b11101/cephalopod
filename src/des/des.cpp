@@ -14,16 +14,24 @@
  * algorithms implemented for learning and demonstration purposes.
  */
 #include "des.h"
-
+#include <algorithm>
 #include <vector>
+#include <iostream>
 
- std::vector<char> encrypt(const std::vector<char>& data)
+using namespace std;
+
+namespace des 
 {
+    std::vector<char> encrypt(const std::vector<char>& data, bool text)
+    {
+        for (char c : data) cout << c;
+        return{};
 
-}
+    }
 
 
-std::vector<char> data_to_binary()
-{
-
+    std::vector<char> data_to_binary()
+    {
+       return {};
+    }
 }
